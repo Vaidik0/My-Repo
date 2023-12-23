@@ -1,0 +1,30 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    height: 200px;
+    width: 200px;
+}
+#box1{
+  
+    background-color: darksalmon;
+}
+#button{
+    padding: 10px 15px;
+    margin: 100px;
+    border: 10px dotted red;
+    border-radius: 100px ;
+    background-color: firebrick;
+}
+#box2{
+    background-color: aqua;
+    box-sizing: border-box;
+    margin: 10px;
+    border: 10px solid blue;
+}
+#box3{
+    background-color: rgb(19, 110, 189);
+    box-sizing: content-box;
+    margin: 10px;
+    border: 10px solid blue;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        #progress_container{
+            width: 90%;
+            height: 35px;
+            background-color: bisque;
+
+            border: 2px solid black;
+            border-radius: 20px;
+            position: relative;
+            left: 4%;
+        }
+        #progress-bar{
+            background-color: darkmagenta;
+            height: 100%;
+            border-radius: 20px;
+
+            text-align: center;
+            text-decoration: underline;
+            text-transform: capitalize;
+            
+            animation: progress_bar 3s infinite;
+        }
+        @keyframes progress_bar {
+            0% {width: 0%;}
+            70% {width: 95%;}
+            90% {width: 75%;}
+            100% {width: 100%;}
+        }
+    </style>
+</head>
+<body>
+    <div id="progress_container">
+         <div id="progress-bar">progress%</div>
+    </div>
+</body>
+</html>
